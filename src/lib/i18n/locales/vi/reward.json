@@ -1,0 +1,35 @@
+{
+	"head": {
+		"title": "Đổi thưởng"
+	},
+	"page-title": "Danh sách Thưởng",
+
+	"button-label": {
+		"coming-soon": "Sắp ra mắt",
+		"redeem-limit-exceeded": "Tất cả quà đã được đổi",
+		"out-of-stock": "Hết quà tặng"
+	},
+	"alert": {
+		"confirm-redeem": {
+			"title": "Xác nhận đổi điểm",
+			"text": "Ngay khi xác nhận, {{value}} điểm sẽ được trừ từ số điểm hiện tại của bạn.",
+			"confirm-label": "Xác nhận"
+		},
+		"redeem-success": {
+			"title": "Đổi quà thành công",
+			"type-cashback-text": "Bạn đã nhận được \"{{value}}\" sau khi đổi điểm. Bạn có thể kiểm tra số dư trong mục <a class=\"trb-link\" href=\"{{value2}}\" target=\"blank\" rel=\"noreferrer noopener\">Thu nhập <i class=\"fa-regular fa-external-link _fs-200\"></i></a>`"
+		}
+	},
+
+	"category-tab": {
+		"all": "Tất cả quà tặng",
+		"hiring": "Dành cho người thuê",
+		"selling": "Dành cho freelancer"
+	},
+
+	"no-reward": "Chưa có quà tặng mới",
+	"new-reward-soon": "Sắp có quà tặng mới",
+	"coming-soon-badge-label": "Sắp ra mắt",
+	"redeem-x-this-month": "Tháng này bạn đã đổi {{value}} lần.",
+	"reward-detail": "Chi tiết quà tặng"
+}

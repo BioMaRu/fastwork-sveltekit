@@ -1,0 +1,33 @@
+{
+	"head": {
+		"title": "Điểm tích lũy"
+	},
+	"page-title": "Nhiệm vụ tích điểm miễn phí",
+	"start-in": "Bắt đầu vào",
+	"time-remain": "Thời gian còn lại",
+	"no-mission": "Không có nhiệm vụ mới",
+	"new-mission-soon": "Nhiệm vụ mới sắp ra mắt",
+	"alert": {
+		"mission-success": {
+			"title": "Nhiệm vụ hoàn tất!",
+			"text": "Bạn có thể tích được {{value}} điểm từ nhiệm vụ này."
+		},
+		"mission-failed": {
+			"title": "Nhiệm vụ thất bại."
+		}
+	},
+	"mission-modal": {
+		"title": "Hướng dẫn làm nhiệm vụ ",
+		"label-prefix": "Nhiệm vụ",
+		"confirm-button": "Đã hiểu"
+	},
+	"card": {
+		"mission-info-label": "Xem hướng dẫn"
+	},
+	"category-tab": {
+		"all": "Tất cả",
+		"common": "Chung",
+		"hiring": "Dành cho người thuê",
+		"selling": "Dành cho freelancer "
+	}
+}

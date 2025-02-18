@@ -1,6 +1,7 @@
 import prettier from 'eslint-config-prettier';
 import js from '@eslint/js';
 import { includeIgnoreFile } from '@eslint/compat';
+import simpleImportSort from "eslint-plugin-simple-import-sort"
 import svelte from 'eslint-plugin-svelte';
 import globals from 'globals';
 import { fileURLToPath } from 'node:url';
@@ -30,5 +31,33 @@ export default ts.config(
 				parser: ts.parser
 			}
 		}
+	},
+	{
+		ignores: ['build/', '.svelte-kit/', 'dist/']
+	},
+	{
+		plugins: {
+			"simple-import-sort": simpleImportSort,
+		},
+		rules: {
+			"simple-import-sort/imports": "error",
+			"simple-import-sort/exports": "error",
+		},
+	},
+	{
+		rules: {
+			'svelte/no-at-html-tags': 'off',
+			'@typescript-eslint/no-explicit-any': 'warn',
+			'@typescript-eslint/no-unused-vars': [
+				'warn',
+				{
+					'args': 'all',
+					'argsIgnorePattern': '^_',
+					'varsIgnorePattern': '^_',
+					'caughtErrorsIgnorePattern': '^_'
+				}
+			],
+
+		},
 	}
 );

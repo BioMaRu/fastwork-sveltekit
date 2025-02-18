@@ -1,0 +1,17 @@
+{
+	"head": {
+		"title": "Points Usage History"
+	},
+
+	"page-title": "Points Usage History",
+	"tab": {
+		"earn": "Points Received",
+		"redeem": "Redeem points"
+	},
+	"table-column": {
+		"earned-date": "Earned date",
+		"redeemed-date": "Redeemed date",
+		"description": "Details",
+		"amount": "Points"
+	}
+}

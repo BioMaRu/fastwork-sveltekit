@@ -11,7 +11,20 @@ const config = {
 		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
 		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter()
+		files: {},
+		adapter: adapter(),
+		alias: {
+			$style: 'src/style',
+			$services: 'src/services',
+			$components: 'src/components',
+			$types: 'src/@types',
+		},
+		version: {
+			pollInterval: 60 * 5000, // 5m
+		},
+		serviceWorker: {
+			register: false,
+		}
 	}
 };
 

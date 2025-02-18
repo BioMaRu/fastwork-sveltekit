@@ -1,0 +1,33 @@
+{
+	"head": {
+		"title": "Earn Point"
+	},
+	"page-title": "Free Point Missions",
+	"start-in": "Starting in",
+	"time-remain": "Time remaining",
+	"no-mission": "No new missions yet",
+	"new-mission-soon": "New missions coming soon",
+	"alert": {
+		"mission-success": {
+			"title": "MMission accomplished!",
+			"text": "You earned {{value}} point from this mission."
+		},
+		"mission-failed": {
+			"title": "Mission failed."
+		}
+	},
+	"mission-modal": {
+		"title": "Mission Instructions",
+		"label-prefix": "Mission",
+		"confirm-button": "Got it"
+	},
+	"card": {
+		"mission-info-label": "View mission instructions"
+	},
+	"category-tab": {
+		"all": "All",
+		"common": "General",
+		"hiring": "For Hiring",
+		"selling": "For Freelancers"
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"hero": {
+		"title-line1": "fastwork rewards",
+		"title-line2": "Keuntungan bagi semua pengguna Fastwork!",
+		"for-seller-only": "Program ini hanya untuk freelancer. Daftar sebagai freelancer untuk mengikuti program",
+		"for-seller-only-link-label": "di sini"
+	},
+	"how": {
+		"title": "Dapatkan poin dan nikmati hadiah, baik Anda pembeli atau freelancer!",
+		"description": "Semakin banyak poin yang Anda kumpulkan, semakin banyak keuntungan yang Anda dapatkan.",
+		"point1": {
+			"title": "Dapatkan dan kumpulkan poin dengan mudah",
+			"description": "Selesaikan aktivitas yang ditetapkan oleh Fastwork untuk mendapatkan poin secara instan! (Freelancer dapat memperoleh poin dari penjualan.)"
+		},
+		"point2": {
+			"title": "Tukarkan poin untuk keuntungan eksklusif:",
+			"description": "Fastwork menawarkan keuntungan khusus seperti diskon untuk mempekerjakan atau cashback untuk freelancer."
+		}
+	},
+	"faq": {
+		"title": "Pertanyaan Umum",
+		"q1": "Bagaimana cara bergabung Fastwork Rewards?",
+		"a1": {
+			"item1": "Cukup masuk ke Fastwork dan buka halaman \"Misi\" untuk mulai mendapatkan poin dan menukarkan hadiah eksklusif. Jika Anda mengalami masalah, silakan hubungi customer service kami."
+		},
+		"q2": "Bagaimana cara saya mendapatkan Poin di Program Fastwork Rewards?",
+		"a2": {
+			"item1": "Selesaikan aktivitas yang tercantum pada halaman Misi, seperti check-in harian.",
+			"item2": "Saat freelancer melakukan penjualan melalui platform Fastwork, setiap penjualan sebesar Rp. 72.000 setara dengan 1 poin."
+		},
+		"q3": "Apa keuntungan dari Fastwork Rewards?",
+		"a3": {
+			"item1": "Contohnya: \n• Cashback untuk freelancer\n• Diskon khusus untuk mempekerjakan\n• Hadiah ekslusif\n• Kupon diskon dari mitra kami\n• Akses ke event Fastwork\n• Dan masih banyak lagi\n\nCatatan: Keuntungan bisa berubah sewaktu-waktu berdasarkan kebutuhan pengguna"
+		},
+		"q4": "Apakah Poin dalam Program Fastwork Rewards memiliki masa berlaku?",
+		"a4": {
+			"item1": "Poin Fastwork akan kedaluwarsa dalam waktu 3 bulan setelah diperoleh, pada akhir bulan ketiga (misalnya, Poin yang diperoleh pada bulan Januari akan kedaluwarsa pada tanggal 30 April).",
+			"item2": "Sistem akan selalu menggunakan Poin yang kedaluwarsanya lebih awal."
+		}
+	}
+}

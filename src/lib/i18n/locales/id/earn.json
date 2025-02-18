@@ -1,0 +1,33 @@
+{
+	"head": {
+		"title": "Akumulasi Poin"
+	},
+	"page-title": "Misi Poin Gratis",
+	"start-in": "Dimulai dalam",
+	"time-remain": "Waktu tersisa",
+	"no-mission": "Belum ada misi baru",
+	"new-mission-soon": "Misi baru segera hadir",
+	"alert": {
+		"mission-success": {
+			"title": "Misi tercapai!",
+			"text": "Anda telah menerima {{value}} poin atas penyelesaian misi ini."
+		},
+		"mission-failed": {
+			"title": "Misi gagal."
+		}
+	},
+	"mission-modal": {
+		"title": "Instruksi misi",
+		"label-prefix": "Misi",
+		"confirm-button": "Ok"
+	},
+	"card": {
+		"mission-info-label": "Lihat instruksi"
+	},
+	"category-tab": {
+		"all": "Semua",
+		"common": "Umum",
+		"hiring": "Untuk Pembeli",
+		"selling": "Untuk Freelancer"
+	}
+}

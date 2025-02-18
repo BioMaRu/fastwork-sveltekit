@@ -1,0 +1,44 @@
+{
+	"short_name": "Fastwork Rewards",
+	"name": "FW Rewards",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "/pwa/icons/512x512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any"
+		},
+		{
+			"src": "/pwa/icons/192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/pwa/icons/192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"background_color": "#1d6ce2",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#1d6ce2",
+	"shortcuts": [
+		{
+			"name": "สะสม Points",
+			"short_name": "Mission",
+			"description": "สะสม Points",
+			"url": "/earn?source=pwa",
+			"icons": [{ "src": "/pwa/icons/earn.png", "sizes": "96x96" }]
+		},
+		{
+			"name": "แลกของรางวัล",
+			"short_name": "Rewards",
+			"description": "แลกของรางวัล",
+			"url": "/reward?source=pwa",
+			"icons": [{ "src": "/pwa/icons/burn.png", "sizes": "96x96" }]
+		}
+	],
+	"description": "Fastwork Rewards - รับสิทธิประโยชน์ เพื่อชาวฟรีแลนซ์ อีกมากมาย"
+}

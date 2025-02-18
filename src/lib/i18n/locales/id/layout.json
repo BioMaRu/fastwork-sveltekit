@@ -1,0 +1,64 @@
+{
+	"head": {
+		"title": "Fastwork Rewards",
+		"description": "Fastwork Rewards - Nikmati Keuntungan Eksklusif untuk Freelancer dan Lainnya"
+	},
+	"points": "poin",
+	"from": "dari",
+	"items": "items",
+	"no-data": "Tidak ada data",
+	"your-point": "Poin Anda",
+	"point-expire": "akan kedaluwarsa pada {{value}}",
+
+	"footer": {
+		"copy-right": "© Seluruh hak cipta dilindungi oleh Fastwork Technologies Co., Ltd."
+	},
+	"button-label": {
+		"logout": "Keluar",
+		"login": "Masuk",
+		"register": "Daftar",
+		"start-earning": "Mulai Kumpulkan Poin",
+		"close-dialog": "Tutup",
+		"redeem": "Tukarkan hadiah",
+		"claimed": "Poin Yang Telah Diklaim",
+		"check-and-claim": "Periksa dan Klaim Poin",
+		"not-start-yet": "Belum dimulai"
+	},
+	"tab": {
+		"earn": "Akumulasi Poin",
+		"reward": "Tukarkan Rewards",
+		"point-history": "Riwayat Penggunaan Poin"
+	},
+	"menu": {
+		"earn": "Akumulasi Poin",
+		"reward": "Tukarkan Rewards",
+		"point-history": "Riwayat Penggunaan Poin",
+		"logout": "Keluar"
+	},
+	"alert": {
+		"logout-confirm": {
+			"title": "Keluar",
+			"text": "Apakah Anda ingin keluar?",
+			"confirm-label": "Keluar"
+		},
+		"join-success": {
+			"title": "Berhasil bergabung dengan program ini",
+			"text": "Selamat datang di Program Fastwork Rewards"
+		}
+	},
+	"toast": {
+		"logout-failed": "Gagal keluar"
+	},
+	"modal": {
+		"join-term": {
+			"title": "Syarat dan Ketentuan Partisipasi",
+			"accept-term": "Saya telah membaca dan memahami syarat dan ketentuan partisipasi.",
+			"button-label": {
+				"confirm": "Bergabunglah dengan Fastwork Rewards"
+			}
+		}
+	},
+	"error-message": {
+		"unexpected": "Terjadi kesalahan"
+	}
+}

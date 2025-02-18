@@ -1,0 +1,64 @@
+{
+	"head": {
+		"title": "{{country; vn:Fastlance; default:Fastwork}} Rewards",
+		"description": "{{country; vn:Fastlance; default:Fastwork}} Rewards - Enjoy Exclusive Benefits for Freelancers and More"
+	},
+	"points": "points",
+	"from": "from",
+	"items": "items",
+	"no-data": "no data",
+	"your-point": "your points",
+	"point-expire": "will expire on {{value}}",
+
+	"footer": {
+		"copy-right": "© All rights reserved by {{country; vn:TNHH Fastlance Vietnam; default:Technologies Co., Ltd.}}"
+	},
+	"button-label": {
+		"logout": "Log Out",
+		"login": "Log in",
+		"register": "Join {{country; vn:Fastlance; default:Fastwork}} Reward",
+		"start-earning": "Start Collecting Points",
+		"close-dialog": "Close",
+		"redeem": "Redeem rewards",
+		"claimed": "Points Claimed",
+		"check-and-claim": "Check and Claim Points",
+		"not-start-yet": "Not started yet"
+	},
+	"tab": {
+		"earn": "Earn Point",
+		"reward": "Redeem Rewards",
+		"point-history": "Points Usage History"
+	},
+	"menu": {
+		"earn": "Earn Point",
+		"reward": "Redeem Rewards",
+		"point-history": "Points Usage History",
+		"logout": "Log Out"
+	},
+	"alert": {
+		"logout-confirm": {
+			"title": "Log Out",
+			"text": "Do you want to log out?",
+			"confirm-label": "Log Out"
+		},
+		"join-success": {
+			"title": "Successfully joined the program",
+			"text": "Welcome to the {{country; vn:Fastlance; default:Fastwork}} Rewards Program"
+		}
+	},
+	"toast": {
+		"logout-failed": "Logout unsuccessful"
+	},
+	"modal": {
+		"join-term": {
+			"title": "Terms and Conditions of Participation",
+			"accept-term": "I accept the terms and conditions.",
+			"button-label": {
+				"confirm": "Join {{country; vn:Fastlance; default:Fastwork}} Rewards"
+			}
+		}
+	},
+	"error-message": {
+		"unexpected": "An error occurred"
+	}
+}

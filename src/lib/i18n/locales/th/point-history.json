@@ -1,0 +1,17 @@
+{
+	"head": {
+		"title": "ประวัติการใช้งาน"
+	},
+
+	"page-title": "ประวัติการใช้งาน",
+	"tab": {
+		"earn": "ได้รับ points",
+		"redeem": "แลก points"
+	},
+	"table-column": {
+		"earned-date": "วันที่ได้รับ point",
+		"redeemed-date": "วันที่แลก points",
+		"description": "รายละเอียด",
+		"amount": "จำนวน points"
+	}
+}

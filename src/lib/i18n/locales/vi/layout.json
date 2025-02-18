@@ -1,0 +1,64 @@
+{
+	"head": {
+		"title": "Fastlance Rewards",
+		"description": "Fastlance Rewards - Nhận ngay những ưu đãi đặc biệt dành riêng cho freelancer và hơn thế nữa"
+	},
+	"points": "điểm",
+	"from": "từ",
+	"items": "danh sách",
+	"no-data": "Chưa có dữ liệu",
+	"your-point": "Điểm của bạn",
+	"point-expire": "sẽ hết hạn vào {{value}}",
+
+	"footer": {
+		"copy-right": "© Bản quyền thuộc Công ty TNHH Fastlance Vietnam"
+	},
+	"button-label": {
+		"logout": "Đăng xuất",
+		"login": "Đăng nhập",
+		"register": "Đăng ký",
+		"start-earning": "Bắt đầu tích điểm",
+		"close-dialog": "Đóng",
+		"redeem": "Đổi quà",
+		"claimed": "Điểm tích lũy",
+		"check-and-claim": "Kiểm tra và tích điểm",
+		"not-start-yet": "Chưa bắt đầu"
+	},
+	"tab": {
+		"earn": "Điểm tích lũy",
+		"reward": "Đổi thưởng",
+		"point-history": "Lịch sử sử dụng điểm"
+	},
+	"menu": {
+		"earn": "Điểm tích lũy",
+		"reward": "Đổi thưởng",
+		"point-history": "Lịch sử sử dụng điểm",
+		"logout": "Đăng xuất"
+	},
+	"alert": {
+		"logout-confirm": {
+			"title": "Đăng xuất",
+			"text": "Bạn có muốn đăng xuất không?",
+			"confirm-label": "Đăng xuất"
+		},
+		"join-success": {
+			"title": "Đã tham gia chương trình thành công",
+			"text": "Chào mừng bạn đến với Chương trình Fastlance Rewards"
+		}
+	},
+	"toast": {
+		"logout-failed": "Đăng xuất thành công"
+	},
+	"modal": {
+		"join-term": {
+			"title": "Điều khoản và điều kiện tham gia",
+			"accept-term": "Tôi chấp nhận Điều khoản và điều kiện",
+			"button-label": {
+				"confirm": "Tham gia Fastlance Rewards"
+			}
+		}
+	},
+	"error-message": {
+		"unexpected": "Có lỗi xảy ra"
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"head": {
+		"title": "แลกของรางวัล"
+	},
+	"page-title": "รายการของรางวัล",
+
+	"button-label": {
+		"coming-soon": "Coming Soon",
+		"redeem-limit-exceeded": "แลกครบแล้ว",
+		"out-of-stock": "ของรางวัลหมดแล้ว"
+	},
+	"alert": {
+		"confirm-redeem": {
+			"title": "ยืนยันการแลกของรางวัล",
+			"text": "หากทำการยืนยันแล้ว points จะถูกตัดออกจากยอดที่ท่านมีอยู่ {{value}} points",
+			"confirm-label": "แลกรางวัล"
+		},
+		"redeem-success": {
+			"title": "แลกของรางวัลสำเร็จ",
+			"type-cashback-text": "คุณได้รับ \"{{value}}\" จากการแลก points สามารถตรวจสอบเงินได้ที่หน้า <a class=\"trb-link\" href=\"{{value2}}\" target=\"blank\" rel=\"noreferrer noopener\">รายได้ <i class=\"fa-regular fa-external-link _fs-200\"></i></a>`"
+		}
+	},
+
+	"category-tab": {
+		"all": "รางวัลทั้งหมด",
+		"hiring": "สำหรับการจ้างงาน",
+		"selling": "เฉพาะฟรีแลนซ์"
+	},
+
+	"no-reward": "ยังไม่มีรางวัลใหม่",
+	"new-reward-soon": "เตรียมพบรางวัลใหม่เร็ว ๆ นี้",
+	"coming-soon-badge-label": "Coming Soon",
+	"redeem-x-this-month": "เดือนนี้แลกแล้ว {{value}} ครั้ง",
+	"reward-detail": "รายละเอียดของรางวัล"
+}

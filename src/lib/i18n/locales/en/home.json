@@ -1,0 +1,41 @@
+{
+	"hero": {
+		"title-line1": "{{country; vn:fastlance; default:fastwork}} rewards",
+		"title-line2": "Benefits for all {{country; vn:Fastlance; default:Fastwork}} users!",
+		"for-seller-only": "This program is for freelancers only. Sign up as a freelancer to join the program",
+		"for-seller-only-link-label": "here"
+	},
+	"how": {
+		"title": "Whether you're an buyer or freelancer, earn points and enjoy rewards!",
+		"description": "The more points you collect, the more benefits you get.",
+		"point1": {
+			"title": "Easily earn and accumulate points",
+			"description": "Complete activities set by {{country; vn:Fastlance; default:Fastwork}} to earn points instantly! (Freelancers can earn points from sales.)"
+		},
+		"point2": {
+			"title": "Redeem points for exclusive benefits:",
+			"description": "{{country; vn:Fastlance; default:Fastwork}} offers special benefits like discounts for hiring or cashback for freelancers."
+		}
+	},
+	"faq": {
+		"title": "FAQ",
+		"q1": "How to join {{country; vn:Fastlance; default:Fastwork}} Rewards?",
+		"a1": {
+			"item1": "Just log in to {{country; vn:Fastlance; default:Fastwork}} and go to \"Missions\" page to start earning points and redeem exclusive rewards. If you encounter any issues, please contact our help center."
+		},
+		"q2": "How do I earn points in the program?",
+		"a2": {
+			"item1": "Complete activities listed on the Missions page, like daily check-ins.",
+			"item2": "Special for freelancers: Earn 1 point for every {{value}} from approved jobs."
+		},
+		"q3": "What are the benefits of {{country; vn:Fastlance; default:Fastwork}} Rewards?",
+		"a3": {
+			"item1": "Examples include: \n• Cashback for freelancers\n• special discounts for clients\n• Exclusive rewards\n• Discount coupons from partners\n• Access to {{country; vn:Fastlance; default:Fastwork}} events\n• And more\n\nRemark: Benefits may change over time based on user needs."
+		},
+		"q4": "Do Points in the {{country; vn:Fastlance; default:Fastwork}} Rewards Program expire?",
+		"a4": {
+			"item1": "{{country; vn:Fastlance; default:Fastwork}} Points expire 3 months after earned, at the end of the third month (e.g., Points earned in January expire on April 30).",
+			"item2": "The system will always use the Points that expire soonest first."
+		}
+	}
+}

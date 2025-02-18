@@ -1,0 +1,41 @@
+{
+	"hero": {
+		"title-line1": "fastlance rewards",
+		"title-line2": "Ưu đãi dành cho tất cả người dùng Fastlance!",
+		"for-seller-only": "Chương trình chỉ dành cho freelancer. Đăng ký làm freelancer ngay để tham gia Chương trình",
+		"for-seller-only-link-label": "tại đây."
+	},
+	"how": {
+		"title": "Bất kể bạn là người thuê hay freelancer, tích điểm và đổi thưởng ngay!",
+		"description": "Càng tích được nhiều điểm, bạn càng nhận được nhiều ưu đãi",
+		"point1": {
+			"title": "Dễ dàng kiếm và tích lũy điểm thưởng",
+			"description": "Hoàn thành các hoạt động của Fastlance để tích điểm ngay! (Freelancer có thể tích điểm trực tiếp từ thu nhập của dự án)"
+		},
+		"point2": {
+			"title": "Đổi điểm nhận ưu đãi độc quyền:",
+			"description": "Fastlance cung cấp những ưu đãi đặc biệt như giảm giá cho người thuê hoặc đổi tiền hoàn (cashback) cho freelancer."
+		}
+	},
+	"faq": {
+		"title": "FAQ",
+		"q1": "Làm thế nào để tham gia Chương trình Fastlance Rewards?",
+		"a1": {
+			"item1": "Chỉ cần đăng nhập vào Fastlance và đi tới trang \"Nhiệm vụ\" để bắt đầu tích điểm và đổi thưởng. Nếu bạn gặp phải vấn đề, hãy liên hệ Bộ phận hỗ trợ ngay. "
+		},
+		"q2": "Làm thế nào để tích thêm điểm trong Chương trình Fastlance Rewards?",
+		"a2": {
+			"item1": "Hoàn thành các hoạt động đề ra ở trang Nhiệm vụ, ví dụ như đăng nhập hàng ngày.",
+			"item2": "Có dự án hoàn thành và nhận thanh toán thông qua hệ thống Fastlance. Với mỗi 112.000 đồng kiếm được sẽ tương đương 1 điểm."
+		},
+		"q3": "Chương trình Fastlance Rewards mang lại lợi ích gì?",
+		"a3": {
+			"item1": "Ví dụ:\n• Tiền hoàn cho freelancer \n• Giảm giá thuê freelancer \n• Quà tặng độc quyền\n• Phiếu giảm giá từ đối tác\n• Vé tham dự các sự kiện của Fastlance\n• Và hơn thế nữa\n\nLưu ý: Ưu đãi có thể thay đổi tại từng thời điểm tùy thuộc vào nhu cầu của người dùng."
+		},
+		"q4": "Điểm của tôi có hạn sử dụng không?",
+		"a4": {
+			"item1": "Điểm Fastlance sẽ hết hạn sau 3 tháng kể từ khi tích điểm, ngày hết hạn là ngày cuối cùng của tháng thứ 3 (Ví dụ điểm được tích vào tháng 1 sẽ hết hạn vào ngày 30 tháng 4)",
+			"item2": "Hệ thống sẽ luôn ưu tiên sử dụng điểm sắp hết hạn."
+		}
+	}
+}

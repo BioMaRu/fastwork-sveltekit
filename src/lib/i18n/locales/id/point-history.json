@@ -1,0 +1,17 @@
+{
+	"head": {
+		"title": "Riwayat Penggunaan Poin"
+	},
+
+	"page-title": "Riwayat Penggunaan Poin",
+	"tab": {
+		"earn": "Poin Diterima",
+		"redeem": "Tukarkan Poin"
+	},
+	"table-column": {
+		"earned-date": "Tanggal Poin Diterima",
+		"redeemed-date": "Tanggal Poin Ditukarkan",
+		"description": "Detail",
+		"amount": "Jumlah Poin"
+	}
+}

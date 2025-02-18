@@ -1,0 +1,35 @@
+{
+	"head": {
+		"title": "Tukarkan Rewards"
+	},
+	"page-title": "Daftar Hadiah",
+
+	"button-label": {
+		"coming-soon": "Segera hadir",
+		"redeem-limit-exceeded": "Semua telah ditukarkan",
+		"out-of-stock": "Stok hadiah habis"
+	},
+	"alert": {
+		"confirm-redeem": {
+			"title": "Konfirmasi penukaran hadiah",
+			"text": "Setelah dikonfirmasi, {{value}} poin akan dipotong dari saldo poin Anda.",
+			"confirm-label": "Konfirmasi"
+		},
+		"redeem-success": {
+			"title": "Hadiah berhasil ditukarkan",
+			"type-cashback-text": "Anda menerima \"{{value}}\" dari penukaran poin. Anda dapat memeriksa jumlahnya di menu <a class=\"trb-link\" href=\"{{value2}}\" target=\"blank\" rel=\"noreferrer noopener\">Pendapatan <i class=\"fa-regular fa-external-link _fs-200\"></i></a>`"
+		}
+	},
+
+	"category-tab": {
+		"all": "Semua Hadiah",
+		"hiring": "Untuk Pembeli",
+		"selling": "Untuk Freelancer"
+	},
+
+	"no-reward": "Belum ada hadiah baru",
+	"new-reward-soon": "Hadiah baru segera hadir",
+	"coming-soon-badge-label": "Segera hadir",
+	"redeem-x-this-month": "Ditukarkan {{value}} kali bulan ini",
+	"reward-detail": "Detail hadiah"
+}

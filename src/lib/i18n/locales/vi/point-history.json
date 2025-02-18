@@ -1,0 +1,17 @@
+{
+	"head": {
+		"title": "Lịch sử sử dụng điểm"
+	},
+
+	"page-title": "Lịch sử sử dụng điểm",
+	"tab": {
+		"earn": "Điểm nhận được",
+		"redeem": "Đổi điểm"
+	},
+	"table-column": {
+		"earned-date": "Ngày nhận điểm",
+		"redeemed-date": "Ngày đổi điểm",
+		"description": "Chi tiết",
+		"amount": "Số điểm"
+	}
+}

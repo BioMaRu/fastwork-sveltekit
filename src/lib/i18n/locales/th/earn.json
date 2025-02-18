@@ -1,0 +1,33 @@
+{
+	"head": {
+		"title": "สะสม Points"
+	},
+	"page-title": "ภารกิจรับ Point ฟรี",
+	"start-in": "เริ่มใน",
+	"time-remain": "เหลือเวลาอีก",
+	"no-mission": "ยังไม่มีภารกิจใหม่",
+	"new-mission-soon": "เตรียมพบภารกิจใหม่เร็ว ๆ นี้",
+	"alert": {
+		"mission-success": {
+			"title": "ทำภารกิจสำเร็จ",
+			"text": "คุณได้รับ {{value}} points จากภารกิจนี้"
+		},
+		"mission-failed": {
+			"title": "ทำภารกิจไม่สำเร็จ"
+		}
+	},
+	"mission-modal": {
+		"title": "วิธีทำภารกิจ",
+		"label-prefix": "ภารกิจ",
+		"confirm-button": "เข้าใจแล้ว"
+	},
+	"card": {
+		"mission-info-label": "ดูวิธีทำภารกิจ"
+	},
+	"category-tab": {
+		"all": "ทั้งหมด",
+		"common": "ทั่วไป",
+		"hiring": "สำหรับการจ้างงาน",
+		"selling": "สำหรับฟรีแลนซ์"
+	}
+}

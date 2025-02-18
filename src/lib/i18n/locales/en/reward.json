@@ -1,0 +1,35 @@
+{
+	"head": {
+		"title": "Redeem Rewards"
+	},
+	"page-title": "Rewards List",
+
+	"button-label": {
+		"coming-soon": "Coming Soon",
+		"redeem-limit-exceeded": "All redeemed",
+		"out-of-stock": "Rewards out of stock"
+	},
+	"alert": {
+		"confirm-redeem": {
+			"title": "Confirm reward redemption",
+			"text": "Once confirmed, {{value}} points will be deducted from your balance.",
+			"confirm-label": "Confirm"
+		},
+		"redeem-success": {
+			"title": "Reward redeemed successfully",
+			"type-cashback-text": "You received \"{{value}}\" from redeeming points. You can check the amount in the <a class=\"trb-link\" href=\"{{value2}}\" target=\"blank\" rel=\"noreferrer noopener\">Earnings menu <i class=\"fa-regular fa-external-link _fs-200\"></i></a>`"
+		}
+	},
+
+	"category-tab": {
+		"all": "All Rewards",
+		"hiring": "For Hiring",
+		"selling": "For Freelancers"
+	},
+
+	"no-reward": "No new rewards yet",
+	"new-reward-soon": "New rewards coming soon",
+	"coming-soon-badge-label": "Coming Soon",
+	"redeem-x-this-month": "Redeemed {{value}} times this month",
+	"reward-detail": "Reward details"
+}

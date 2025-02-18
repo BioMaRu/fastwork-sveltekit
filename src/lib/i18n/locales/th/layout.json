@@ -1,0 +1,64 @@
+{
+	"head": {
+		"title": "Fastwork Rewards",
+		"description": "Fastwork Rewards - รับสิทธิประโยชน์ เพื่อชาวฟรีแลนซ์ อีกมากมาย"
+	},
+	"points": "points",
+	"from": "จาก",
+	"items": "รายการ",
+	"no-data": "ไม่พบข้อมูล",
+	"your-point": "Point ของคุณ",
+	"point-expire": "จะหมดอายุวันที่ {{value}}",
+
+	"footer": {
+		"copy-right": "© สงวนลิขสิทธิ์ บริษัทฟาสต์เวิร์ค เทคโนโลยีส์ จำกัด"
+	},
+	"button-label": {
+		"logout": "ออกจากระบบ",
+		"login": "เข้าสู่ระบบ",
+		"register": "สมัครเลย!",
+		"start-earning": "เริ่มต้นสะสม Points",
+		"close-dialog": "ปิดหน้าต่าง",
+		"redeem": "แลกของรางวัล",
+		"claimed": "รับ Points แล้ว",
+		"check-and-claim": "ตรวจสอบ และรับ Points",
+		"not-start-yet": "ยังไม่เริ่ม"
+	},
+	"tab": {
+		"earn": "สะสม Point",
+		"reward": "แลกของรางวัล",
+		"point-history": "ประวัติการใช้งาน"
+	},
+	"menu": {
+		"earn": "สะสม Point",
+		"reward": "แลกของรางวัล",
+		"point-history": "ประวัติการใช้งาน",
+		"logout": "ออกจากระบบ"
+	},
+	"alert": {
+		"logout-confirm": {
+			"title": "ออกจากระบบ",
+			"text": "คุณต้องการออกจากระบบใช่หรือไม่",
+			"confirm-label": "ออกจากระบบ"
+		},
+		"join-success": {
+			"title": "เข้าร่วมสำเร็จ",
+			"text": "ยินดีต้อนรับเข้าสู่ Fastwork Rewards"
+		}
+	},
+	"toast": {
+		"logout-failed": "'ออกจากระบบไม่สำเร็จ'"
+	},
+	"modal": {
+		"join-term": {
+			"title": "ข้อกำหนดและเงื่อนไขการเข้าร่วมกิจกรรม",
+			"accept-term": "ฉันยอมรับข้อตกลงและเงื่อนไข",
+			"button-label": {
+				"confirm": "สมัคร Fastwork Rewards"
+			}
+		}
+	},
+	"error-message": {
+		"unexpected": "เกิดข้อผิดพลาดบางอย่างขึ้น"
+	}
+}

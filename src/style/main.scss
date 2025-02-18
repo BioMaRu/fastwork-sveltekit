@@ -1,0 +1,36 @@
+@use '@fastwork/turbine-theme/index.css';
+@use '@fastwork/turbine-css/reset.css';
+@use '@fastwork/turbine-css/atomic.css';
+@use '@fastwork/turbine-css/utility.css';
+@use '@fastwork/turbine-css/component.css';
+@use '@fastwork/turbine-css/layout.css';
+
+@use 'override-3rd-party/all';
+
+:root {
+	--color-grad-cta: linear-gradient(96.17deg, #2976e7 1.74%, #11a24b 75.65%, #e9b10c 122.93%);
+}
+
+.u-1by1 {
+	aspect-ratio: 1 / 1;
+}
+
+.u-3by2 {
+	aspect-ratio: 3 / 2;
+}
+
+.u-4by3 {
+	aspect-ratio: 4 / 3;
+}
+
+.u-2by1 {
+	aspect-ratio: 2 / 1;
+}
+
+.u-16by9 {
+	aspect-ratio: 16 / 9;
+}
+
+.u-16by10 {
+	aspect-ratio: 16 / 10;
+}

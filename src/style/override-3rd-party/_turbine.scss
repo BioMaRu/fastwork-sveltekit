@@ -1,0 +1,46 @@
+.trb-article.custom {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: var(--font-family-secondary);
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	p,
+	ul,
+	ol {
+		font-size: 14px;
+		line-height: 1.5;
+	}
+
+	ul,
+	ol {
+		padding-left: 1rem;
+	}
+}
+
+@media only screen and (width <= 1023px) {
+	.trb-article.custom {
+		p,
+		ul,
+		ol {
+			font-size: 12px;
+		}
+	}
+}
+
+._ctnt-ils {
+	container-type: inline-size;
+}
+
+@media screen and (width <= 767px) {
+	.lo-container {
+		grid-template-columns: 20px minmax(0, auto) 20px;
+	}
+}

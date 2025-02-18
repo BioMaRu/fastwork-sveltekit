@@ -5,6 +5,19 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [sveltekit()],
 
+	server: {
+		host: 'localhost',
+		port: 8080
+	},
+
+	css: {
+		preprocessorOptions: {
+			scss: {
+				api: 'modern-compiler'
+			}
+		}
+	},
+
 	test: {
 		workspace: [
 			{
