@@ -1,15 +1,11 @@
-// See https://kit.svelte.dev/docs/types#app
+// See https://svelte.dev/docs/kit/types#app.d.ts
 // for information about these interfaces
-import type { User } from '$types';
-
 declare global {
 	namespace App {
 		// interface Error {}
-		interface Locals {
-			accessToken: string;
-			me: User.Me | null | undefined;
-		}
+		// interface Locals {}
 		// interface PageData {}
+		// interface PageState {}
 		// interface Platform {}
 	}
 }
