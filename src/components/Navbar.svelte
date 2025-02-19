@@ -3,7 +3,7 @@
 	import { cubicInOut } from 'svelte/easing'
 
 	import { page } from '$app/state'
-	import { LocaleMenuPanel, NavbarMenuPanel } from '$components'
+	import { LocaleMenuPanel } from '$components'
 	import { FEATURE_FLAG } from '$lib/constants'
 	import { locale } from '$lib/i18n'
 	import { countrySwitcher } from '$lib/switcher'
@@ -71,17 +71,6 @@
 	</div>
 </nav>
 
-{#if showMenu}
-	<div
-		transition:menuTransition
-		class="navbar-menu"
-		use:clickAway
-		onclick-away={() => (showMenu = false)}
-	>
-		<NavbarMenuPanel onClickMenu={() => (showMenu = false)} />
-	</div>
-{/if}
-
 {#if showLocaleMenu}
 	<div
 		transition:menuTransition
@@ -112,15 +101,6 @@
 		&:hover {
 			background: var(--color-neutral-100);
 		}
-	}
-
-	.navbar-menu {
-		position: absolute;
-		top: calc(var(--navbar-height) - 8px);
-		right: 24px;
-		z-index: 2;
-		width: 100%;
-		max-width: 320px;
 	}
 
 	.locale-menu {

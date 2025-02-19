@@ -1,16 +1,12 @@
 <script lang="ts">
-	import { Question, Terms } from '$components'
-	import { ModalMyFastworkTerm } from '$components/modal'
-
-	import Hero from './components/Hero.svelte'
-	import How from './components/How.svelte'
+	import { ModalExample1, ModalExample2 } from '$components/modal'
+	import * as modal from '$lib/modal'
 </script>
 
 <div class="_ovf-hd">
-	<Hero />
-	<How />
-	<Question />
-	<Terms />
+	<button on:click={() => modal.open('example1')}>Open Modal1</button>
+	<button on:click={() => modal.open('example2')}>Open Modal2</button>
 </div>
 
-<ModalMyFastworkTerm />
+<ModalExample1 />
+<ModalExample2 />

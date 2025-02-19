@@ -32,7 +32,7 @@ export const load = (async ({ fetch, cookies, locals }) => {
 	{
 		const isBanned = Boolean(resMe.result?.banned_at)
 		if (isBanned) {
-			redirect(302, EXTERNAL_LINK.suspense)
+			redirect(302, '/')
 		}
 	}
 

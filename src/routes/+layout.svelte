@@ -42,13 +42,13 @@
 			return
 		}
 
-		api.invoke(
-			API.userOnline,
-			{
-				userId: page.data?.me?.id,
-			},
-			fetch,
-		)
+		// api.invoke(
+		// 	API.userOnline,
+		// 	{
+		// 		userId: page.data?.me?.id,
+		// 	},
+		// 	fetch,
+		// )
 	}
 
 	function handleTracking() {

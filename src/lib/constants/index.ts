@@ -8,68 +8,23 @@ import { countrySwitcher } from '$lib/switcher'
 
 export const ROUTE = {
 	home: '/',
-	earn: '/earn',
-	pointHistory: '/point-history',
-	reward: '/reward',
-	rewardHistory: '/reward-history',
 }
 
-export const REDIRECT_TO_AUTH_ROUTES = [
-	ROUTE.earn,
-	ROUTE.pointHistory,
-	ROUTE.reward,
-	ROUTE.rewardHistory,
+export const AUTH_PROTECTED_ROUTES = [
+	// eg. ROUTE.home,
 ]
 
 export const API = {
 	userMe: 'user.me',
-	userOnline: 'user.online',
-
-	authSignOut: 'auth.signOut',
-
-	pointEnroll: 'points.enroll',
-	pointGetByUser: 'points.getByUser',
-	pointListEarnHistory: 'points.listEarnHistory',
-	pointListBurnHistory: 'points.listBurnHistory',
-
-	missionList: 'missions.list',
-	missionChallenge: 'missions.challenge',
-
-	rewardList: 'rewards.list',
-	rewardRedeem: 'rewards.redeem',
 } as const
 
 export const ERR_CODE = {
 	unauthorized: 'UNAUTHORIZED',
-
 	schemaValidationFailed: 'SCHEMA_VALIDATION_FAILED',
-
-	pointsNotExist: 'POINTS_NOT_EXIST',
-	pointsOrderNotQualifiedForEarn: 'POINTS_ORDER_NOT_QUALIFIED_FOR_EARN',
-	pointsUserAlreadyEnroll: 'POINTS_USER_ALREADY_ENROLL',
-	pointsUserNotQualifiedForEnroll: 'POINTS_USER_NOT_QUALIFIED_FOR_ENROLL',
-
-	rewardsNotFound: 'REWARDS_NOT_FOUND',
-	rewardsNotActive: 'REWARDS_NOT_ACTIVE',
-	rewardsFullyRedeemed: 'REWARDS_FULLY_REDEEMED',
-	rewardsUserFullyRedeemed: 'REWARDS_USER_FULLY_REDEEMED',
-	rewardsUserHasNotEnoughPoints: 'REWARDS_USER_HAS_NOT_ENOUGH_POINTS',
-
-	missionsNotFound: 'MISSIONS_NOT_FOUND',
-	missionsAlreadyCompletedByUser: 'MISSIONS_ALREADY_COMPLETED_BY_USER',
-	missionsTypeNotSupported: 'MISSIONS_TYPE_NOT_SUPPORTED',
-} as const
-
-export const NAV_MENU = {
-	earn: 'earn',
-	reward: 'reward',
-	history: 'history',
 } as const
 
 export const EXTERNAL_LINK = {
-	startSelling: `${env.PUBLIC_V4_URL}/start-selling`,
-	withdrawalDashboard: `${env.PUBLIC_SELLER_URL}/withdrawals`,
-	suspense: `${env.PUBLIC_V4_URL}/suspended`,
+	//eg. startSelling: `${env.PUBLIC_V4_URL}/start-selling`,
 }
 
 export const FEATURE_FLAG = {

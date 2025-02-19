@@ -4,29 +4,34 @@ import cookie from 'cookie'
 
 import { env } from '$env/dynamic/public'
 import { getAuthURL } from '$lib/auth'
-import { COOKIE_OPTIONS, REDIRECT_TO_AUTH_ROUTES } from '$lib/constants'
+import { AUTH_PROTECTED_ROUTES, COOKIE_OPTIONS } from '$lib/constants'
 
 function shouldRedirectToAuth(path: string): boolean {
-	return REDIRECT_TO_AUTH_ROUTES.includes(path)
+	return AUTH_PROTECTED_ROUTES.includes(path)
 }
 
-// TODO: better to get user data here
+/**
+ * Checks if the given path should redirect to authentication
+ */
 const handleAuth = (async ({ event, resolve }) => {
 	const { request, locals, url } = event
 
-	/* get access token from cookie */
-	const cookieHeader = request.headers.get('cookie')
+	/* handle cookie in request header */
+	{
+		/* get access token from cookie */
+		const cookieHeader = request.headers.get('cookie')
 
-	// Only parse cookies if header exists
-	locals.accessToken = cookieHeader
-		? cookie.parse(cookieHeader)?.[env.PUBLIC_ACCESS_TOKEN_COOKIE_NAME]
-		: undefined
+		/* Only parse cookies if header exists */
+		locals.accessToken = cookieHeader
+			? cookie.parse(cookieHeader)?.[env.PUBLIC_ACCESS_TOKEN_COOKIE_NAME]
+			: undefined
 
-	if (shouldRedirectToAuth(url.pathname)) {
-		const redirectURL = url
+		if (shouldRedirectToAuth(url.pathname)) {
+			const redirectURL = url
 
-		if (!locals.accessToken) {
-			return Response.redirect(getAuthURL(redirectURL), 302)
+			if (!locals.accessToken) {
+				return Response.redirect(getAuthURL(redirectURL), 302)
+			}
 		}
 	}
 
@@ -48,6 +53,7 @@ const handleAuth = (async ({ event, resolve }) => {
 		}
 	}
 
+	/* return to render response */
 	return response
 }) satisfies Handle
 
