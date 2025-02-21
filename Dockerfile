@@ -1,38 +1,29 @@
-# use the official Bun image
-# see all versions at https://hub.docker.com/r/oven/bun/tags
-FROM oven/bun:1 AS base
-WORKDIR /usr/src/app
+FROM node:22.13.0-alpine as builder
 
 WORKDIR /app
 
 ENV NODE_ENV=production
 ENV NODE_PORT=8080
 
-# install dependencies into temp directory
-# this will cache them and speed up future builds
-FROM base AS install
-RUN mkdir -p /temp/dev
-COPY package.json bun.lock /temp/dev/
-RUN cd /temp/dev && bun install --frozen-lockfile
+RUN apk add --no-cache libc6-compat bash
 
-# install with --production (exclude devDependencies)
-RUN mkdir -p /temp/prod
-COPY package.json bun.lock /temp/prod/
-RUN cd /temp/prod && bun install --frozen-lockfile --production
+RUN apk add --update --no-cache python3 alpine-sdk yarn && ln -sf python3 /usr/bin/python
 
-# copy node_modules from temp directory
-# then copy all (non-ignored) project files into the image
-FROM base AS prerelease
-COPY --from=install /temp/dev/node_modules node_modules
 COPY . .
 
-# copy production dependencies and source code into final image
-FROM base AS release
-COPY --from=install /temp/prod/node_modules node_modules
-COPY --from=prerelease /usr/src/app/index.ts .
-COPY --from=prerelease /usr/src/app/package.json .
+RUN . .env
+RUN yarn && yarn run build
 
+FROM node:22.13.0-alpine
 
-USER bun
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV NODE_PORT=8080
+
+COPY --from=builder /app/package.json /app/build .
+COPY --from=builder /app/node_modules ./node_modules
+
 EXPOSE 8080
-ENTRYPOINT [ "bun", "run", "index.ts" ]
+
+ENTRYPOINT ["node", "index.js"]
